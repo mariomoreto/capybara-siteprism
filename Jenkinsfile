@@ -5,6 +5,6 @@ node {
         }
   }
   stage('Run Test'){
-        cucumber
+       sh 'cucumber'
   }
 }
