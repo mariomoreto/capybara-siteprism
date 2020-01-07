@@ -7,3 +7,4 @@ node {
   stage('Run Test'){
         cucumber
   }
+}
